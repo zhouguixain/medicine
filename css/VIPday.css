@@ -1,0 +1,79 @@
+body{
+	height: 100%;
+	background: #f6f0d8;
+}
+/*标题*/
+.title{
+	width: 92.5%;
+	height: 59px;
+	margin: 0 auto;
+	background: rgba(255,255,255,0.8);
+	border-radius: 8px;
+	margin-top: 35px;
+	text-align: center;
+	line-height: 59px;
+	font-size: 1.625em;
+}
+/*日历*/
+.calendar{
+	overflow: hidden;
+	clear: both;
+	margin-top: 20px;
+}
+.calendar img{
+	width: 98%;
+	float: right;
+}
+/*优惠信息*/
+.favorableContent{
+	width: 92%;
+	margin: 0 auto;
+}
+.favorableDay{
+	font-size: 1.625em;
+	margin: 33px 0 35px 5px;
+}
+.favorableDay em{
+	color: #b30f0f;
+}
+.favorableText{
+	font-size: 1.125em;
+	margin-bottom: 30px;
+}
+.favorableText li{
+	display: block;
+	overflow: hidden;
+	clear: both;
+	margin-bottom: 8px;
+}
+.tick{
+	float: left;
+	display: inline-block;
+	background: url("../images/tick.png") 0 0 no-repeat;
+	width: 12%;
+	height: 21px;
+	/*margin-right: 10px;*/
+}
+.favorableText span{
+	float: right;
+	width: 88%;
+}
+
+/*领券*/
+.ticketBox{
+	display: block;
+	width: 83.2%;
+	margin: 0 auto;
+}
+.ticketBox img{
+	width: 100%;
+}
+/*南北药店*/
+.logoBox{
+	width: 89.9%;
+	margin: 0 auto;
+	margin: 20px auto 30px auto;
+}
+.logoBox img{
+	width: 100%;
+}
